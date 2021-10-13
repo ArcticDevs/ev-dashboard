@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { Component, ElementRef, OnDestroy, OnInit } from '@angular/core';
 import { AbstractControl, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';

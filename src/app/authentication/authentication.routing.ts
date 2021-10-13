@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { Routes } from '@angular/router';
 
 import { AuthenticationDefinePasswordComponent } from './define-password/authentication-define-password.component';

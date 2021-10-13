@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { FormControl, FormGroup } from '@angular/forms';
 import { MatDialogRef } from '@angular/material/dialog';
 import { Data, Router } from '@angular/router';

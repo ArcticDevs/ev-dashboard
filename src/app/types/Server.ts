@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export enum ServerAction {
   UNKNOWN_ACTION = 'Unknown',
 

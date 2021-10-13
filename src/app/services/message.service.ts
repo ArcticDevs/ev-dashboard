@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -59,6 +60,7 @@ export class MessageService {
     this.showMessage('danger', message, title, params);
   }
 
+  // eslint-disable-next-line max-len
   public showActionsMessage(actionsResponse: ActionsResponse, messageSuccess: string, messageError: string, messageSuccessAndError: string, messageNoSuccessNoError: string): void {
     // Success and Error
     if (actionsResponse.inSuccess > 0 && actionsResponse.inError > 0) {
